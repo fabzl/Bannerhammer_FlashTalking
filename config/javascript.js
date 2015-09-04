@@ -9,7 +9,7 @@ module.exports.tasks = {
 	uglify: {
 		options: {
 			mangle: false,    // Turn mangling on or off
-			beautify: false, // Beautify your code for debugging/troubleshooting purposes
+			beautify: true, // Beautify your code for debugging/troubleshooting purposes
 			compress: false,
 			report: 'gzip'
 		},
